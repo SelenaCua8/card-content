@@ -7,6 +7,7 @@
   font-family: 'Poppins', sans-serif;
 }
 body{
+    padding: 50px;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -14,6 +15,7 @@ body{
   background: #f2f2f2;
 }
 section{
+    padding: 50px;
   position: absolute;  
   height: 450px;
   width: 1075px;
@@ -141,3 +143,53 @@ section .card .image img{
   opacity: 1;
   color: #118913;
 }
+
+@media only screen and (max-width: 1200px) {
+    section {
+      width: 80%;
+     
+    }
+  
+    .swiper {
+      width: 100%;
+    }
+  
+    .card {
+      margin: 15px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    .card .media-icons {
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .card .name-profession .name {
+      font-size: 18px;
+    }
+  
+    .card .name-profession .profession {
+      font-size: 14px;
+    }
+  
+    .card .button button {
+      padding: 8px 18px;
+      font-size: 12px;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .swiper-slide {
+      display: none;
+    }
+  
+    .swiper-slide:first-child {
+      display: block;
+    }
+  
+    .swiper-button-next, .swiper-button-prev {
+      display: block;
+    }
+  }
