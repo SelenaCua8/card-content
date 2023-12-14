@@ -47,6 +47,7 @@ section{
   padding: 30px;
   position: relative;
   z-index: 100;
+
 }
 section .card .image{
   height: 140px;
@@ -87,6 +88,9 @@ section .card .image img{
   margin-top: 10px;
 
 } 
+.name{
+  text-align: center;
+}
 .name-profession .name{
   font-size: 20px;
   font-weight: 600;
