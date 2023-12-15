@@ -90,6 +90,9 @@ section .card .image img{
 } 
 .name{
   text-align: center;
+
+
+  height: 110px;
 }
 .name-profession .name{
   font-size: 20px;
